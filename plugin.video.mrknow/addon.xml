@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mrknow"
+       name="Filmy Online - mrknow.pl"
+       version="2.0.0"
+       provider-name="mrknow">
+  <requires>
+    <import addon="xbmc.python" version="2.23.0"/>
+    <import addon="script.module.pyxbmct" version="1.1.4"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.urlresolver" version="5.0.08a"/>
+    <!--<import addon="script.mrknow.urlresolver" />-->
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.common.plugin.cache"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Wtyczka MRKNOW (MOD by mrRumcajz)</summary>
+    <description>Plugin pozwala nam ogladac filmy, telewizje, sport z polskich stron internetowych. Ikony do wtyczki dostarczył Michał Morawski email: mickpl[malpa]wp.pl. Poniewaz MrKnow reposytorium juz nie jest aktywne, jest to zmodifikowana wtyczka</description>
+    <platform>all</platform>
+    <forum>https://github.com/mrrumcajz/rumcajz_repo/issues</forum>
+	<source>https://github.com/mrrumcajz/rumcajz_repo</source>
+    <website>https://github.com/mrrumcajz/rumcajz_repo</website>
+  </extension>
+</addon>
