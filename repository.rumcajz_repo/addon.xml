@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.rumcajz_repo" name="rumcajz_repo repository - mrRumcajz" version="1.0.0" provider-name="MrRumcajz">
 	<extension point="xbmc.addon.repository" name="rumcajz_repo Kodi Add-on Repository">
-		<info compressed="false">https://github.com/mrrumcajz/rumcajz_repo/master/addons.xml</info>
-		<checksum>https://github.com/mrrumcajz/rumcajz_repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/mrrumcajz/rumcajz_repo/master/</datadir>
+		<info compressed="false">https://github.com/mrrumcajz/rumcajz_repo/blob/master/addons.xml</info>
+		<checksum>https://github.com/mrrumcajz/rumcajz_repo/blob/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/mrrumcajz/rumcajz_repo/blob/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Add-ons  from filmkodi.com</summary>
